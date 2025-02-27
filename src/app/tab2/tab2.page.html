@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mis proyectos.
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <ion-accordion-group>
+    <ion-accordion value="web">
+      <ion-item slot="header" color="light">
+        <ion-label>
+          Proyectos
+        </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>
+               CRUD en PHP
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>
+              Desarrollamos un CRUD en PHP con conexión a base 
+              de datos MySQL. Para realizar las operaciones de
+              Crear, Leer, Actualizar y Eliminar registros.
+              Dicho proyecto funciona para PYME's de la 
+              Región Sierra.
+            </p>
+            </ion-card-content>
+        </ion-card>
+      </div>
+      
+      <div class="ion-padding" slot="content">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>
+               Apps En Ionic
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>
+              Desarrollamos una App para el aprendizaje del LSM,
+              debido a que han llegado estudiantes con esta condición 
+              al TecNM Campus Región Sierra.
+
+              Esta App contiene el abecedario en Lenguaje de señas,
+              con la finalidad de que los estudiantes puedan aprender
+              de una forma más sencilla, el LSM. También contiene un juego
+              y un QUIZ para que el aprendizaje sea más entretenido.
+              
+            </p>
+            </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-accordion>
+ </ion-accordion-group>
+</ion-content>
